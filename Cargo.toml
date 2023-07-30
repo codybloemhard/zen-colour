@@ -1,0 +1,18 @@
+[package]
+name = "zen-colour"
+version = "1.0.0"
+edition = "2021"
+description = "The most minimal terminal colour and style crate."
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.com/codybloemhard/zen-colour"
+keywords = ["terminal", "text"]
+categories = ["command-line-interface"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "testbin"
+path = "src/bin.rs"
+
+[dependencies]
