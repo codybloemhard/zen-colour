@@ -57,10 +57,12 @@ const R: &str = RED;
 The standard colours are chosen by the user.
 They want to see those colours.
 The non standard colours (RGB for example) are not chosen by the user.
-They will just clash with the standard colours and your application doesn't look consistent with others on the users system.
-They must never be used.
-Never.
-If you are that prick that doesn't use my standard colours and mess up my terminal aesthetics: fuck you.
+They will just clash with the standard colours and your application will not look consistent
+with other programs on the users system.
+They must never be used unless you are doing some kind of graphics, as opposed to UI.
+This is why this crate just does not support them.
+This battle is unfortunately lost in the GUI space.
+May the terminal stay strong.
 
 ## why
 
@@ -81,7 +83,7 @@ I just ended up throwing the colour codes right into the `print!` or `format!`.
 And now we are here.
 Nice, easy, clean, no complexity, just colours and styles.
 
-## more features
+## more features?
 
 no.
 
