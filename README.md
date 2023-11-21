@@ -34,6 +34,7 @@ Text colours:
 - MAGENTA
 - CYAN
 - WHITE
+- DEFAULT
 
 Background colours:
 - BG_BLACK
@@ -44,6 +45,7 @@ Background colours:
 - BG_MAGENTA
 - BG_CYAN
 - BG_WHITE
+- BG_DEFAULT
 
 ## names
 
