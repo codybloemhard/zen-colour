@@ -7,6 +7,8 @@ Just throw them into your string and bob's your uncle.
 ```rust
 use zen_colour::*;
 println!("{}this is red{}", RED, RESET);
+println!("{BLUE}blue{RESET}");
+println!("{r}r{g}g{r}r{g}g{r}r{g}g", r = RED, g = GREEN);
 ```
 
 ## constants

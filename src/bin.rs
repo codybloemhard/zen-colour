@@ -1,9 +1,9 @@
 use zen_colour::*;
 
 fn main() {
-    let ns = ["black", "red", "green", "yellow", "blue", "magenta", "cyan", "white"];
-    let cs = [BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE];
-    let bs = [BG_BLACK, BG_RED, BG_GREEN, BG_YELLOW, BG_BLUE, BG_MAGENTA, BG_CYAN, BG_WHITE];
+    let ns = ["black", "red", "green", "yellow", "blue", "magenta", "cyan", "white", "default"];
+    let cs = [BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, DEFAULT];
+    let bs = [BG_BLACK, BG_RED, BG_GREEN, BG_YELLOW, BG_BLUE, BG_MAGENTA, BG_CYAN, BG_WHITE, BG_DEFAULT];
     let ss = [RESET, BOLD, FAINT, ITALIC, UNDERLINED, BLINK, HIDDEN, CROSSED];
 
     for style in ss {
@@ -22,4 +22,6 @@ fn main() {
     }
 
     println!("{}\nfin", RESET);
+    println!("{RED}red{RESET}");
+    println!("{r}r{g}g{r}r{g}g{r}r{g}g", r = RED, g = GREEN);
 }
